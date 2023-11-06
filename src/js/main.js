@@ -48,7 +48,6 @@ document.querySelector('body').innerHTML = `
 `
 
 
-
 const apiKey = "589bc44c8f784d999b891052230611";
 const apiURL = "http://api.weatherapi.com/v1/current.json?";
 
