@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.text {
+  color: white;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: fit-content;
+  height: fit-content;
+  padding: 30px 25px 25px 25px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, rgb(106, 255, 250), #a963ff);
+}
+
+form input {
+  font-size: 1.1rem;
+  width: 280px;
+  height: 50px;
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+
+form button {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+
+form button img {
+  width: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.form #weather-now {
+  margin: 10px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.form #weather-now #state {
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.form #weather-now p:first-of-type {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.form #weather-now p:last-child {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.form #weather-conditions {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.form #weather-conditions .condition {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+}
+.form #weather-conditions .condition .div-nextTo {
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.form #weather-conditions .condition img {
+  height: 30px;
+  display: block;
+}
+.form #weather-conditions .condition p {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.form #weather-conditions #what-state {
+  text-align: end;
+  font-weight: 200;
+}
